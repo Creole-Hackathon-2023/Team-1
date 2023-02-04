@@ -6,7 +6,7 @@ export const headerMenus = [
     link: '/',
   },
   {
-    key: 'home',
+    key: 'auth',
     label: 'Register/Login',
     // icon: '',
     link: '/register',
