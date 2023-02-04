@@ -1,10 +1,11 @@
 // venue listing
 import { Button } from 'antd';
 import React from 'react';
+import CustomLayout from '../components/layout';
 
 const Home = () => {
   return (
-    <div>
+    <CustomLayout>
       Home
       <a href='/login'>
         <Button>login</Button>
@@ -12,7 +13,7 @@ const Home = () => {
       <a href='/register'>
         <Button>Register</Button>
       </a>
-    </div>
+    </CustomLayout>
   );
 };
 
